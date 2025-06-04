@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+/* App.css */
+
+
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+
+form {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(12px);
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  min-width: 320px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 1.8rem;
+  color: #fdfdfd;
+  margin-bottom: 0.5rem;
+}
+
+.caption {
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+  font-style: italic;
+  color: #ffeaa7;
+  text-align: center;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  background: #fff;
+  color: #333;
+  font-size: 1rem;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+button {
+  padding: 10px 15px;
+  margin: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.2);
+}
+
+button[type="submit"] {
+  background-color: #00cec9;
+  color: #fff;
+}
+
+button[type="submit"]:hover {
+  background-color: #00b894;
+}
+
+button[type="reset"] {
+  background-color: #dfe6e9;
+  color: #2d3436;
+}
+
+button[type="reset"]:hover {
+  background-color: #b2bec3;
+}
+
+.result-box {
+  margin-top: 1rem;
+  font-size: 1.3rem;
+  word-break: break-word;
+  color: #00ff95;
+  text-shadow: 0 0 8px rgba(0, 255, 149, 0.8);
+  font-weight: bold;
+}
